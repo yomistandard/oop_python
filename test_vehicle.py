@@ -1,7 +1,11 @@
 from poly import Vehicle
 
-vehicles = Vehicle("car","drive")
-vehicles.type = "plane"
-vehicles.movement = "fly"
-print(vehicles.move())
+car = Vehicle("car","drive")
+ship = Vehicle("ship","sail")
+plane = Vehicle("plane","fly")
+Vehicle.type = ""
+Vehicle.movement = ""
+print(car.move())
+print(plane.move())
+print(ship.move())
 
